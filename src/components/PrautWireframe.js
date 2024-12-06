@@ -4,38 +4,28 @@ import AnimatedLogo from './AnimatedLogo';
 
 const PrautWireframe = () => {
   // State management
-  const [currentPrWord, setPrWord] = useState('prime');
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
   const [isScrollingDown, setIsScrollingDown] = useState(false);
   const lastScrollY = useRef(0);
 
-  // Enhanced PR words with automation pairings
-  const prWords = [
-    { pr: 'prime', automation: 'Process Automation' },
-    { pr: 'private', automation: 'Personal Automation' },
-    { pr: 'practical', automation: 'Powerful Automation' },
-    { pr: 'precise', automation: 'Predictive Automation' },
-    { pr: 'professional', automation: 'Productive Automation' },
-    { pr: 'progressive', automation: 'Proactive Automation' }
-  ];
 
   // Enhanced services with more details
-  const services = [
+const services = [
     {
       icon: "🤖",
-      title: "AI Integration",
-      description: "Custom AI solutions for your business needs",
-      features: ["ChatGPT Integration", "Custom ML Models", "NLP Solutions"],
-      caseStudy: "Increased efficiency by 45% for Client X"
+      title: "Integrace AI do firem",
+      description: "AI reseni primo padnouci Vasi firme na miru",
+      features: ["Zakaznicke Chatboty", "AI telefonicka linka", "AI podpora a databaze produktu"],
+      caseStudy: "Usetri praci nekolika lidi kazdy mesic, nikdy nezapomene a neni nemocny."
     },
     {
       icon: "🔄",
-      title: "Automation",
-      description: "Streamline your workflows with intelligent automation",
-      features: ["Process Automation", "Task Scheduling", "Workflow Optimization"],
-      caseStudy: "Saved 120+ hours monthly for Client Y"
+      title: "Automatizace",
+      description: "Automatizace ukladanych procesu a rizeni",
+      features: ["Inteligentni procesy", "Planovani procesu", "Optimalizace procesu"],
+      caseStudy: "Zvyseni 100 a vice hodin podle velikosti a druhu firmy."
     },
     {
       icon: "📊",
@@ -69,12 +59,12 @@ const PrautWireframe = () => {
 
   // Enhanced technology stack with categories
   const technologies = {
-    "Programming Languages": ["Python", "JavaScript", "TypeScript"],
-    "Frameworks": ["Django", "FastAPI", "React", "Node.js"],
-    "AI & ML": ["OpenAI", "Claude", "Llama", "LangChain", "TensorFlow"],
-    "Communication": ["Discord", "Telegram", "Slack"],
-    "Data": ["Web scraping", "Data analysis", "Data cleaning"],
-    "Visualization": ["Interactive dashboards", "D3.js", "Recharts"]
+    "Prvni schuzka": ["Nastin moznych integraci", "Posouzeni potencionalnich uspor", "Dohodnuti blizsiho proskoumani moznosti"],
+    "Reseni na miru": ["Nalezeni nejlepsich AI reseni primo padnouci Vasi firme", "Automatizace na miru", "React", "Node.js"],
+    "Vytvoreni reseni": ["Nejprve se vytvori Stanardizovany produkt", "Doladeni aby odpovidal presne Vasim potrebam", "Llama", "LangChain", "TensorFlow"],
+    "Nasazeni": ["Nasazeni do plneho produkcniho okruhu", "Dlouhodoba podpora", "24/7 monitoring a podpora"],
+    "Dlouhodobe monitorovani": ["Posuzovani dlouhodobe efektivity", "Prispusobeni se dobe a trhu", "Data cleaning"],
+    "Zaskoleni zamestnancu": ["Od standartniho zaskolni vsech v kancelari", "Moznosti kompletniho vyskoleni Vaseho zamestnance", "Recharts"]
   };
 
   // Enhanced projects with more details
@@ -266,16 +256,7 @@ const PrautWireframe = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Animate PR words
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setPrWord(prev => {
-        const currentIndex = prWords.findIndex(word => word.pr === prev);
-        return prWords[(currentIndex + 1) % prWords.length].pr;
-      });
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
+  
 
   // Animation for section transitions
   const SectionTransition = ({ children }) => (
