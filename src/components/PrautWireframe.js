@@ -393,9 +393,9 @@ const services = [
         <SectionTransition>
           <div className="container mx-auto px-6">
             <div className="text-center max-w-2xl mx-auto mb-16">
-              <h2 className="text-3xl font-bold mb-4">Our Technology Stack</h2>
+              <h2 className="text-3xl font-bold mb-4">Jak pomahame modernizovat firmy</h2>
               <p className="text-gray-600">
-                We use cutting-edge technologies to deliver exceptional results
+                Pouzivame nejmodernejsi postupy pro nase klienty
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -501,64 +501,66 @@ const services = [
             <div className="text-center max-w-2xl mx-auto mb-16">
               <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
               <p className="text-gray-600">
-                Ready to transform your business? Let's discuss how we can help.
+                Pripraveni transformovat vasi firmu? Proberme jak muzeme zlepsit fungovani vasich systemu a jeste Vam pomoct usetrit.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
               <div className="bg-white rounded-lg shadow-lg p-8">
-                <h3 className="text-2xl font-semibold mb-6">Send us a Message</h3>
+                <h3 className="text-2xl font-semibold mb-6">Posli nam zpravu</h3>
                 <form className="space-y-6">
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Your Name</label>
+                    <label className="text-sm font-medium text-gray-700">Vase Jmeno</label>
                     <input
                       type="text"
                       className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
-                      placeholder="John Doe"
+                      placeholder="Frantisek Novak"
                     />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Email Address</label>
+                    <label className="text-sm font-medium text-gray-700">Vas Email</label>
                     <input
                       type="email"
                       className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
-                      placeholder="john@example.com"
+                      placeholder="franovak@priklad.cz"
                     />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Subject</label>
+                    <label className="text-sm font-medium text-gray-700">Predmet Zpravy</label>
                     <select className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors">
-                      <option>General Inquiry</option>
-                      <option>Project Discussion</option>
-                      <option>Partnership Opportunity</option>
-                      <option>Technical Support</option>
+                      <option>Automatizace pracovnich postupu</option>
+                      <option>Integrace AI</option>
+                      <option>AI pro zakaznickou podporu</option>
+                      <option>Vyskoleni zamestnancu</option>
+                      <option>Technicka podpora</option>
+                      <option>Neco jineho ....</option>
                     </select>
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Message</label>
+                    <label className="text-sm font-medium text-gray-700">Zprava</label>
                     <textarea
                       rows={4}
                       className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
-                      placeholder="Tell us about your project..."
+                      placeholder="Reknete nam o Vase pripade ....."
                     ></textarea>
                   </div>
                   <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2">
-                    <span>Send Message</span>
+                    <span>Odeslat Zpravu</span>
                     <ArrowRight className="w-4 h-4" />
                   </button>
                 </form>
               </div>
               <div className="bg-white rounded-lg shadow-lg p-8">
-                <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+                <h3 className="text-2xl font-semibold mb-6">Kontaktni Informace</h3>
                 <div className="space-y-6">
                   <div>
-                    <h4 className="font-semibold mb-2">Office Location</h4>
-                    <p className="text-gray-600">123 Innovation Street</p>
-                    <p className="text-gray-600">Tech City, TC 12345</p>
+                    <h4 className="font-semibold mb-2">Sidlo Firmy</h4>
+                    <p className="text-gray-600">Berliner Strasse 13.</p>
+                    <p className="text-gray-600">Weiden, DE 95666</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Contact Details</h4>
+                    <h4 className="font-semibold mb-2">Detailni kontakty</h4>
                     <p className="text-gray-600">Email: contact@praut.com</p>
-                    <p className="text-gray-600">Phone: +1 (123) 456-7890</p>
+                    <p className="text-gray-600">Cesky hovorici zastoupeni: +49 (0) 175 90 96 96 5</p>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Business Hours</h4>
