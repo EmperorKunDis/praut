@@ -349,7 +349,7 @@ const services = [
           <div className="text-center max-w-auto mx-auto">
             <AnimatedLogo />
             <p className="text-xl text-gray-600 mb-12 mt-8">
-              Transforming businesses through intelligent automation and AI-powered solutions
+              Transformujte svoji firmu diky AI Automatizaci a obohatte ji tak aby byla konkurence schopna i v modernim svete.
             </p>
             <div className="space-x-4">
               <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
