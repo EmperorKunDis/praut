@@ -18,28 +18,28 @@ const services = [
       title: "Integrace AI do firmy",
       description: "AI řešení přímo padnoucí Vašemu podnikání na míru.",
       features: ["Zákaznické chatboty", "AI telefonická linka", "AI podpora a databáze produktů"],
-      caseStudy: "Jaké jsou výhody: Ušetří práci vykonávanou několika lidmi, nikdy nezapomene a není nemocný. "
+      caseStudy: "Jaké jsou výhody: Ušetří práci vykonávanou několika lidmi, nikdy nezapomene a není nemocný."
     },
     {
       icon: "🔄",
       title: "Automatizace",
-      description: "Automatizace ukladanych procesu a rizeni",
-      features: ["Inteligentni procesy", "Planovani procesu", "Optimalizace procesu"],
-      caseStudy: "Zvyseni 100 a vice hodin podle velikosti a druhu firmy."
+      description: "Automatizace ukládaných procesů a řízení.",
+      features: ["Inteligentní procesy", "Plánování procesu", "Optimalizace procesu"],
+      caseStudy: "Jaké jsou výhody: Zvýšení efektivity práce až o 100%."
     },
     {
       icon: "📊",
-      title: "Data Analysis",
-      description: "Transform your data into actionable insights",
-      features: ["Predictive Analytics", "Data Visualization", "Real-time Reporting"],
-      caseStudy: "Improved decision accuracy by 60% for Client Z"
+      title: "Analýza dat",
+      description: "Transformujte svá data do praktických statistik.",
+      features: ["Prediktivní analytika", "Vizualizace dat", "Reporting v reálném čase"],
+      caseStudy: "Jaké jsou výhody: Zlepšená přesnost rozhodování až o 60%."
     },
     {
       icon: "🌐",
-      title: "Web Scraping",
-      description: "Extract valuable data from any web source",
-      features: ["Custom Scrapers", "Data Processing", "API Integration"],
-      caseStudy: "Collected 1M+ data points for Client W"
+      title: "Cílená extratrakce dat z Internetu",
+      description: "Nenechte se prekvapit zadnym krokem konkurence",
+      features: ["Vlastní šablony na extrakci dat", "Zpracování extrahovaných dat", "Integrace API"],
+      caseStudy: "Co je výstupem: Shromáždění, zpracování a automatické vyhodnocování cílů relevantních pro klienta."
     },
     {
       icon: "💬",
