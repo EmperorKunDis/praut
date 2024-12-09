@@ -380,7 +380,7 @@ const services = [
             </div>
             <div className="text-center mt-16">
               <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center space-x-2">
-                <span>Explore our services</span>
+                <span>Takto Vám pomůžeme s modernizací</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
