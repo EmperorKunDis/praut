@@ -18,42 +18,42 @@ const services = [
       title: "Integrace AI do firmy",
       description: "AI řešení přímo padnoucí Vašemu podnikání na míru.",
       features: ["Zákaznické chatboty", "AI telefonická linka", "AI podpora a databáze produktů"],
-      caseStudy: "Jaké jsou výhody: Ušetří práci vykonávanou několika lidmi, nikdy nezapomene a není nemocný."
+      caseStudy: "Ušetří práci vykonávanou několika lidmi, nikdy nezapomene a není nemocný."
     },
     {
       icon: "🔄",
       title: "Automatizace",
       description: "Automatizace ukládaných procesů a řízení.",
-      features: ["Inteligentní procesy", "Plánování procesu", "Optimalizace procesu"],
-      caseStudy: "Jaké jsou výhody: Zvýšení efektivity práce až o 100%."
+      features: ["Inteligentní procesy", "Plánování procesů", "Optimalizace procesů"],
+      caseStudy: "Zvýšení efektivity práce až o 100%."
     },
     {
       icon: "📊",
       title: "Analýza dat",
       description: "Transformujte svá data do praktických statistik.",
       features: ["Prediktivní analytika", "Vizualizace dat", "Reporting v reálném čase"],
-      caseStudy: "Jaké jsou výhody: Zlepšená přesnost rozhodování až o 60%."
+      caseStudy: "Zlepšená přesnost rozhodování až o 60%."
     },
     {
       icon: "🌐",
-      title: "Cílená extratrakce dat z Internetu",
+      title: "Cílená extratrakce dat z internetu",
       description: "Nenechte se prekvapit zadnym krokem konkurence",
       features: ["Vlastní šablony na extrakci dat", "Zpracování extrahovaných dat", "Integrace API"],
-      caseStudy: "Co je výstupem: Shromáždění, zpracování a automatické vyhodnocování cílů relevantních pro klienta."
+      caseStudy: "Shromáždění, zpracování a automatické vyhodnocování cílů relevantních pro klienta."
     },
     {
       icon: "💬",
-      title: "Chat Integration",
-      description: "Connect your systems with popular chat platforms",
-      features: ["Multi-platform Support", "Custom Chatbots", "Analytics Dashboard"],
-      caseStudy: "Reduced response time by 80% for Client V"
+      title: "Automatizujte svou online prezentace",
+      description: "Synchronizace všech prezentačních platforem a Automatizace ukonů na týdny dopředu jedním úkonem a na jednom místě.",
+      features: ["Více platforem v reálném čase.", "Integrace chatbotů na weby a sociální kanály.", "Přizpůsobení automatizace dle potřeb uživatele."],
+      caseStudy: "Zredukován čas na správu komunikace minimalně o 70 % a až několikanásobný nárůst klientely."
     },
     {
       icon: "📈",
-      title: "Dashboards",
+      title: "Přehledy a vizualizace dat",
       description: "Interactive visualizations of your key metrics",
-      features: ["Real-time Updates", "Custom Metrics", "Mobile Responsive"],
-      caseStudy: "Improved KPI tracking by 75% for Client U"
+      features: ["Aktualizace v reálném čase", "Vlastní metriky", "Dostupnost kdykoliv a kdekoliv"],
+      caseStudy: "Vylepšení sledování výkonosti a efektivity v dosahování klíčových cílů."
     }
   ];
 
