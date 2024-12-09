@@ -15,10 +15,10 @@ const PrautWireframe = () => {
 const services = [
     {
       icon: "🤖",
-      title: "Integrace AI do firem",
-      description: "AI reseni primo padnouci Vasi firme na miru",
-      features: ["Zakaznicke Chatboty", "AI telefonicka linka", "AI podpora a databaze produktu"],
-      caseStudy: "Usetri praci nekolika lidi kazdy mesic, nikdy nezapomene a neni nemocny."
+      title: "Integrace AI do firmy",
+      description: "AI řešení přímo padnoucí Vašemu podnikání na míru.",
+      features: ["Zákaznické chatboty", "AI telefonická linka", "AI podpora a databáze produktů"],
+      caseStudy: "Jaké jsou výhody: Ušetří práci vykonávanou několika lidmi, nikdy nezapomene a není nemocný. "
     },
     {
       icon: "🔄",
