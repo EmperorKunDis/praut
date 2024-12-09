@@ -502,10 +502,10 @@ const services = [
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
               <div className="bg-white rounded-lg shadow-lg p-8">
-                <h3 className="text-2xl font-semibold mb-6">Posli nam zpravu</h3>
+                <h3 className="text-2xl font-semibold mb-6">Pošli nám zprávu</h3>
                 <form className="space-y-6">
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Vase Jmeno</label>
+                    <label className="text-sm font-medium text-gray-700">Vaše Jméno</label>
                     <input
                       type="text"
                       className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
@@ -513,7 +513,7 @@ const services = [
                     />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Vas Email</label>
+                    <label className="text-sm font-medium text-gray-700">Váš Email</label>
                     <input
                       type="email"
                       className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
@@ -521,42 +521,42 @@ const services = [
                     />
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Predmet Zpravy</label>
+                    <label className="text-sm font-medium text-gray-700">Důvod kontaktu</label>
                     <select className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors">
-                      <option>Automatizace pracovnich postupu</option>
+                      <option>Automatizace pracovních postupu</option>
                       <option>Integrace AI</option>
-                      <option>AI pro zakaznickou podporu</option>
-                      <option>Vyskoleni zamestnancu</option>
-                      <option>Technicka podpora</option>
-                      <option>Neco jineho ....</option>
+                      <option>AI pro zákaznickou podporu</option>
+                      <option>Vyškolení zaměstnanců</option>
+                      <option>Technická podpora</option>
+                      <option>Něco jiného ....</option>
                     </select>
                   </div>
                   <div className="space-y-2">
-                    <label className="text-sm font-medium text-gray-700">Zprava</label>
+                    <label className="text-sm font-medium text-gray-700">Zpráva</label>
                     <textarea
                       rows={4}
                       className="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors"
-                      placeholder="Reknete nam o Vase pripade ....."
+                      placeholder="Řekněte nám o Vašem případě ....."
                     ></textarea>
                   </div>
                   <button className="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center space-x-2">
-                    <span>Odeslat Zpravu</span>
+                    <span>Odeslat Zprávu</span>
                     <ArrowRight className="w-4 h-4" />
                   </button>
                 </form>
               </div>
               <div className="bg-white rounded-lg shadow-lg p-8">
-                <h3 className="text-2xl font-semibold mb-6">Kontaktni Informace</h3>
+                <h3 className="text-2xl font-semibold mb-6">Kontaktní Informace</h3>
                 <div className="space-y-6">
                   <div>
-                    <h4 className="font-semibold mb-2">Sidlo Firmy</h4>
+                    <h4 className="font-semibold mb-2">Sídlo Firmy</h4>
                     <p className="text-gray-600">Berliner Strasse 13.</p>
                     <p className="text-gray-600">Weiden, DE 95666</p>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2">Detailni kontakty</h4>
+                    <h4 className="font-semibold mb-2">Detailní kontakty</h4>
                     <p className="text-gray-600">Email: contact@praut.com</p>
-                    <p className="text-gray-600">Cesky hovorici zastoupeni: +49 (0) 175 90 96 96 5</p>
+                    <p className="text-gray-600">Česky hovořící zastoupení: +49 (0) 175 90 96 96 5</p>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Business Hours</h4>
