@@ -368,10 +368,8 @@ const services = [
         <SectionTransition>
           <div className="container mx-auto px-6">
             <div className="text-center max-w-2xl mx-auto mb-16">
-              <h2 className="text-3xl font-bold mb-4">What can we offer you?</h2>
-              <p className="text-gray-600">
-              Objevte naši komplexní nabídku služeb navržených pro transformaci vašeho podnikání.
-              </p>
+              <h2 className="text-3xl font-bold mb-4">Jaké produkty a služby nabízíme ?</h2>
+              <p className="text-gray-600">Objevte naši komplexní nabídku služeb navržených pro transformaci vašeho podnikání.</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {services.map((service, index) => (
@@ -393,10 +391,8 @@ const services = [
         <SectionTransition>
           <div className="container mx-auto px-6">
             <div className="text-center max-w-2xl mx-auto mb-16">
-              <h2 className="text-3xl font-bold mb-4">Jak pomahame modernizovat firmy</h2>
-              <p className="text-gray-600">
-                Pouzivame nejmodernejsi postupy pro nase klienty
-              </p>
+              <h2 className="text-3xl font-bold mb-4">Jak pomáháme modernizovat firmy</h2>
+              <p className="text-gray-600">Používáme nejmodernejši postupy pro naše klienty</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {Object.entries(technologies).map(([category, techs]) => (
@@ -424,7 +420,7 @@ const services = [
         <SectionTransition>
           <div className="container mx-auto px-6">
             <div className="text-center max-w-2xl mx-auto mb-16">
-              <h2 className="text-3xl font-bold mb-4">Success Stories</h2>
+              <h2 className="text-3xl font-bold mb-4">Příklady naší práce</h2>
               <p className="text-gray-600">
                 Discover how we've helped our clients achieve their goals
               </p>
@@ -499,9 +495,9 @@ const services = [
         <SectionTransition>
           <div className="container mx-auto px-6">
             <div className="text-center max-w-2xl mx-auto mb-16">
-              <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
+              <h2 className="text-3xl font-bold mb-4">Spojit se </h2>
               <p className="text-gray-600">
-                Pripraveni transformovat vasi firmu? Proberme jak muzeme zlepsit fungovani vasich systemu a jeste Vam pomoct usetrit.
+                Připravení transformovat vasi firmu? Proberme jak muzeme zlepsit fungovani vasich systemu a jeste Vam pomoct usetrit.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
