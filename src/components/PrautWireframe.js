@@ -349,14 +349,14 @@ const services = [
           <div className="text-center max-w-auto mx-auto">
             <AnimatedLogo />
             <p className="text-xl text-gray-600 mb-12 mt-8">
-              Transformujte svoji firmu diky AI Automatizaci a obohatte ji tak aby byla konkurence schopna i v modernim svete.
+              Transformujte svoji firmu díky AI Automatizaci a obohaťte ji tak, aby byla konkurence schopna i v moderním světě.
             </p>
             <div className="space-x-4">
               <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
-                Dej sve firme sanci
+                Posuňte svou firmu dál.
               </button>
               <button className="border border-blue-600 text-blue-600 px-8 py-3 rounded-lg hover:bg-blue-50 transition-colors">
-                Zjisti jak usetrit a byt konkurenceschopnejsi
+              Nabídka přímo pro Vás.
               </button>
             </div>
           </div>
@@ -370,7 +370,7 @@ const services = [
             <div className="text-center max-w-2xl mx-auto mb-16">
               <h2 className="text-3xl font-bold mb-4">What can we offer you?</h2>
               <p className="text-gray-600">
-                Discover our comprehensive range of services designed to transform your business
+              Objevte naši komplexní nabídku služeb navržených pro transformaci vašeho podnikání.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
