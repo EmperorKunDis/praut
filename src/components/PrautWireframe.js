@@ -44,8 +44,8 @@ const services = [
     {
       icon: "💬",
       title: "Automatizujte svou online prezentace",
-      description: "Synchronizace všech prezentačních platforem a Automatizace ukonů na týdny dopředu jedním úkonem a na jednom místě.",
-      features: ["Více platforem v reálném čase.", "Integrace chatbotů na weby a sociální kanály.", "Přizpůsobení automatizace dle potřeb uživatele."],
+      description: "Komunikace na týdny dopředu jedním úkonem a na jednom místě.",
+      features: ["V reálném čase.", "Integrace chatbotů na weby a sociální kanály.", "Přizpůsobení dle potřeb uživatele."],
       caseStudy: "Zredukován čas na správu komunikace minimalně o 70 % a až několikanásobný nárůst klientely."
     },
     {
