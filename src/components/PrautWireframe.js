@@ -59,8 +59,8 @@ const services = [
 
   // Enhanced technology stack with categories
   const technologies = {
-    "Prvni schuzka": ["Nastin moznych integraci", "Posouzeni potencionalnich uspor", "Dohodnuti blizsiho proskoumani moznosti"],
-    "Reseni na miru": ["Nalezeni nejlepsich AI reseni primo padnouci Vasi firme", "Automatizace na miru", "React", "Node.js"],
+    "První kontakt": ["Nastíníme možnosti integrace.", "Posoudíme potenciální úspory.", "Dohodneme bližší spolupráci."],
+    "Reseni na miru": ["Nalezení nejlepších AI řešení přímo padnoucích na míru.", "Představíme procesy a technologie ktere budou mít nejlepší efektivitu v daném "],
     "Vytvoreni reseni": ["Nejprve se vytvori Stanardizovany produkt", "Doladeni aby odpovidal presne Vasim potrebam", "Llama", "LangChain", "TensorFlow"],
     "Nasazeni": ["Nasazeni do plneho produkcniho okruhu", "Dlouhodoba podpora", "24/7 monitoring a podpora"],
     "Dlouhodobe monitorovani": ["Posuzovani dlouhodobe efektivity", "Prispusobeni se dobe a trhu", "Data cleaning"],
